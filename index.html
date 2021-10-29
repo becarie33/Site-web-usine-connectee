@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Dimension by HTML5 UP</title>
+		<title>Bienvenue by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -17,24 +17,23 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Header -->
+				<!-- Page d'accueil -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-gem"></span>
+							<span class="icon fa-gem"></span> <!-- logo diamand à changer -->
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Dimension</h1>
-								<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-								for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+								<h1>Bienvenue</h1>
+								<p>Nous sommes l'usine connectée de l'Université de Bordeaux <br /> Ce projet a pu se concrétiser dans le cadre du projet I4EU <br />Pour plus d'informations, rendez-vous sur le site officiel <a href="https://www.i4eu-pro.eu">ici</a><br />
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<li><a href="#intro">Qui sommes-nous ?</a></li>
+								<li><a href="#work">L'usine</a></li>
+								<li><a href="#about">S'identifier</a></li>
+								<li><a href="#contact">Nous contacter</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>
@@ -43,28 +42,74 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Intro -->
+						<!-- Qui sommes-nous? -->
 							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<h2 class="major">Université de Bordeaux</h2>
+								<span class="image main"><img src="images/ubdx.png" alt="" /></span>
 								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
 							</article>
 
-						<!-- Work -->
+						<!-- L'usine -->
 							<article id="work">
-								<h2 class="major">Work</h2>
+								<h2 class="major">L'usine</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
 								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
 								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
 							</article>
 
-						<!-- About -->
+						<!-- S'identifier -->
 							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
-							</article>
+							<div>
+								<h2 class="major">Déjà un compte chez nous ?</h2>
+								<form method="post" action="#">
+									<div class="fields" id="form-connexion">
+										<div class="field">
+											<label for="email">E-mail</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="mdp">Mot de passe</label>
+											<input type="text" name="mdp" id="mdp"/>
+										</div>
+                                        <div> Il faut que ca vérifie dans la base de donnée que le compte existe bien</div>
+                                        <div  class="actions">
+										<input type="submit" value="Connexion" class=" primary" style="margin-left : 40%; margin-top : 5px" />
+                                        </div>
+                                    </div>
+								</form>
+                            </div>
+                            <div>
+								<h2 class="major">Créer un compte<br /></h2>
+								<form method="post" action="#">
+									<div class="fields" id="form-inscription">
+										<div class="field half">
+											<label for="nom">Nom</label>
+											<input type="text" name="nom" id="nom" />
+										</div>
+										<div class="field half">
+											<label for="prenom">Prénom</label>
+											<input type="text" name="prenom" id="prenom" />
+										</div>
+                                        <div class="field">
+											<label for="catpro">Catégorie professionelle</label>
+											<input type="text" name="catpro" id="catpro" />
+										</div>
+                                       <div class="field">
+											<label for="mail">E-mail</label>
+											<input type="text" name="mail" id="mail" />
+										</div>
+										<div class="field">
+											<label for="mdep">Mot de passe</label>
+											<input type="text" name="mdep" id="mdep"/>
+										</div>
+                                        <div>Mettre en lien avec base de donnée</div>
+                                        <div  class="actions">
+										<input type="submit" value="S'inscrire" class="primary" style="margin-left : 35%; margin-top : 10px" />
+										</div>
+								</form>
+                            </div>
+                            </article>
 
 						<!-- Contact -->
 							<article id="contact">
@@ -96,7 +141,18 @@
 									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</article>
-
+                    
+                    
+                        <!-- ON S'EN FOUT ON TOUCHE PAS EN DESSOUS DE ÇA -->
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
 						<!-- Elements -->
 							<article id="elements">
 								<h2 class="major">Elements</h2>
